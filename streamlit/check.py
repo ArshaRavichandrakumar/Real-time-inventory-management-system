@@ -140,7 +140,7 @@ def data(username,password):
             num=st.selectbox("add",add_invent)
             if num== "Add Product Details":
                 st.write("Sample format of product details.Please maintain field name as given.")
-                st.image("main/streamlit/sampledetail.jpg")
+                st.image("streamlit/sampledetail.jpg")
                 data_file = st.file_uploader("Upload Product Details", type=["csv", "xlsx"])
                 if(st.button("Upload")):
                     if data_file:
@@ -174,7 +174,7 @@ def data(username,password):
                 count=0
                 st.write("Please add Product Details first.")
                 st.write("\nSample format of product demand. Please maintain format as given.")
-                st.image("main/streamlit/sampledemand.jpg")    
+                st.image("streamlit/sampledemand.jpg")    
                 demand_file = st.file_uploader("Upload Demand Details", type=["csv", "xlsx"])
                 if(st.button("Upload file")):
                 
@@ -223,7 +223,7 @@ def data(username,password):
         num=st.selectbox("Add",add_invent)
         if num== "Add Product Details":
             st.write("Sample format of product details.Please maintain field name as given.")
-            st.image("main/streamlit/sampledetail.jpg")
+            st.image("streamlit/sampledetail.jpg")
             data_file = st.file_uploader("Upload Product Details", type=["csv", "xlsx"])
             if(st.button("Upload")):
                 if data_file:
@@ -257,7 +257,7 @@ def data(username,password):
             count=0
             st.write("Please add Product Details first.")
             st.write("\nSample format of product demand. Please maintain format as given.")
-            st.image("main/streamlit/sampledemand.jpg")    
+            st.image("streamlit/sampledemand.jpg")    
             demand_file = st.file_uploader("Upload Demand Details", type=["csv", "xlsx"])                
             if(st.button("Upload file")):
                 if demand_file:
